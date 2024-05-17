@@ -5,33 +5,34 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
     public float jumpHeight = 2f;
-    public Camera playerCamera;
+    public float health = 100f;  // Salud inicial del jugador
+
+    private bool isGrounded;
+    private float groundCheckDistance = 0.1f;
     public LayerMask groundLayer;
 
     private Rigidbody rb;
-    private bool isGrounded;
-    private float groundCheckDistance = 0.1f;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
-        rb.useGravity = true;  // Asegúrate de que la gravedad esté activada.
-        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;  // Mejora la detección de colisiones.
+        rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
     {
         GroundCheck();
         Move();
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))  // Detecta clic izquierdo para atacar
         {
-            Shoot();
+            Attack();
         }
     }
 
@@ -55,12 +56,28 @@ public class PlayerController : MonoBehaviour
 
     private void GroundCheck()
     {
-        isGrounded = Physics.Raycast(transform.position, -Vector3.up, groundCheckDistance, groundLayer);
+        isGrounded = Physics.Raycast(transform.position, -Vector3.up, groundCheckDistance + 0.1f, groundLayer);
     }
 
-    private void Shoot()
+    private void Attack()
     {
-        Debug.Log("Shoot!");
-        // Implementa la mecánica de disparo aquí.
+        // Implementa el raycast o la lógica para detectar y dañar a los fantasmas frente al jugador
+        Debug.Log("Attack initiated!");
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        Debug.Log($"Player health: {health}");
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player has died!");
+        // Implementa la lógica de la muerte del jugador, como reiniciar el nivel o mostrar un menú de game over
     }
 }
