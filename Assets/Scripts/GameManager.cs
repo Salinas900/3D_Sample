@@ -1,59 +1,81 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject ghostPrefab;
     public Transform spawnPoint;
     public Transform playerTarget;
-    public int initialCount = 3;
-    public float timeBetweenRounds = 5f;
-    public int maxGhosts = 30; // Máximo total de fantasmas en el mapa
+    public int initialCount = 5; // Comenzar con 5 fantasmas
+    public float timeBetweenRounds = 5f; // 5 segundos entre rondas
+    private int maxGhosts = 30; // Máximo total de fantasmas para controlar la dificultad
 
     private float roundTimer;
     private int currentRound = 0;
-    private int currentGhostCount = 0; // Contador de fantasmas actuales
+    private int currentGhostCount = 0;
+    private bool roundActive = false;
 
     private void Start()
     {
-        roundTimer = timeBetweenRounds;
-        SpawnGhosts(Mathf.Min(initialCount, maxGhosts)); // Asegura que no excedamos el máximo al inicio
+        StartRound();
     }
 
     private void Update()
     {
-        roundTimer -= Time.deltaTime;
-        if (roundTimer <= 0)
+        if (currentGhostCount == 0 && !roundActive)
         {
-            currentRound++;
-            int ghostsToSpawn = Mathf.Min(initialCount + currentRound * 2, maxGhosts - currentGhostCount);
-            if (ghostsToSpawn > 0)
+            roundTimer -= Time.deltaTime;
+            if (roundTimer <= 0)
             {
-                SpawnGhosts(ghostsToSpawn);
+                StartRound();
             }
-            roundTimer = timeBetweenRounds;
         }
+    }
+
+    void StartRound()
+    {
+        roundActive = true;
+        currentRound++;
+        int ghostsToSpawn = initialCount + 2 * (currentRound - 1); // Añadir 2 fantasmas más cada ronda
+        if (ghostsToSpawn > maxGhosts)
+            ghostsToSpawn = maxGhosts;
+
+        SpawnGhosts(ghostsToSpawn);
+        roundTimer = timeBetweenRounds;
     }
 
     void SpawnGhosts(int count)
     {
-        float reductionFactor = Mathf.Max(0.5f, 1 - 0.05f * currentRound); // Reduce el factor de daño pero no menor a 50%
         for (int i = 0; i < count; i++)
         {
+            if (ghostPrefab == null)
+            {
+                Debug.LogError("Ghost prefab is missing or destroyed");
+                return;
+            }
             GameObject ghost = Instantiate(ghostPrefab, spawnPoint.position, Quaternion.identity);
             GhostController ghostController = ghost.GetComponent<GhostController>();
             if (ghostController != null)
             {
                 ghostController.playerTarget = playerTarget;
-                ghostController.SetDamageReductionFactor(reductionFactor);
-                ghostController.gameManager = this; // Pasamos esta instancia de GameManager al GhostController
+                ghostController.gameManager = this;
             }
-            currentGhostCount++; // Incrementa el contador de fantasmas
+            currentGhostCount++;
         }
     }
 
-    // Llamar cuando un fantasma muere para actualizar el contador
     public void GhostDied()
     {
         currentGhostCount--;
+        if (currentGhostCount == 0)
+        {
+            roundActive = false; // Finaliza la ronda actual, inicia cuenta regresiva para la próxima ronda
+            roundTimer = timeBetweenRounds; // Reinicia el temporizador para la siguiente ronda
+        }
+    }
+
+    public void PlayerDied()
+    {
+        SceneManager.LoadScene("GameOverScene");
     }
 }

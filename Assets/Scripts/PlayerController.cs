@@ -5,19 +5,18 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
     public float jumpHeight = 2f;
-    public float health = 100f;  // Salud inicial del jugador
+    public float health = 100f;
 
     private bool isGrounded;
     private float groundCheckDistance = 0.1f;
     public LayerMask groundLayer;
-
     private Rigidbody rb;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-        Cursor.lockState = CursorLockMode.Locked;
+        SetCursorState(true);
     }
 
     private void Update()
@@ -30,7 +29,7 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
 
-        if (Input.GetMouseButtonDown(0))  // Detecta clic izquierdo para atacar
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
         }
@@ -61,14 +60,26 @@ public class PlayerController : MonoBehaviour
 
     private void Attack()
     {
-        // Implementa el raycast o la lógica para detectar y dañar a los fantasmas frente al jugador
-        Debug.Log("Attack initiated!");
+        RaycastHit hit;
+        float range = 100f;
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range))
+        {
+            if (hit.collider.gameObject.CompareTag("Ghost"))
+            {
+                GhostController ghost = hit.collider.gameObject.GetComponent<GhostController>();
+                if (ghost != null)
+                {
+                    ghost.TakeDamage(health * 0.25f);
+                    Vector3 knockBackDirection = (hit.collider.transform.position - transform.position).normalized;
+                    ghost.KnockBack(knockBackDirection);
+                }
+            }
+        }
     }
 
     public void TakeDamage(float damage)
     {
         health -= damage;
-        Debug.Log($"Player health: {health}");
         if (health <= 0)
         {
             Die();
@@ -78,6 +89,21 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player has died!");
-        // Implementa la lógica de la muerte del jugador, como reiniciar el nivel o mostrar un menú de game over
+        SetCursorState(false);  // Unlock and show the cursor before changing scene
+        SceneController.Instance.LoadScene("GameOver");
+    }
+
+    private void SetCursorState(bool cursorLocked)
+    {
+        if (cursorLocked)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 }

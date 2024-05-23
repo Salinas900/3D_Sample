@@ -1,23 +1,23 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 public class GhostController : MonoBehaviour
 {
     public Transform playerTarget;
-    public float health = 100f;  // Salud inicial
+    public float health = 100f;
+    public float moveSpeed = 5f;
     private float currentHealth;
-    private float damageReductionFactor = 1f;  // Factor de reducción de daño inicial
-    public GameManager gameManager;  // Referencia al GameManager
+    private float damageReductionFactor = 1f;
+    public GameManager gameManager;
 
-    private NavMeshAgent agent;
+    private Rigidbody rb;
 
     private void Start()
     {
         currentHealth = health;
-        agent = GetComponent<NavMeshAgent>();
-        if (agent == null)
+        rb = GetComponent<Rigidbody>();
+        if (rb == null)
         {
-            Debug.LogError("NavMeshAgent component is not attached to the ghost.");
+            Debug.LogError("Rigidbody component is not attached to the ghost.");
         }
         if (playerTarget == null)
         {
@@ -27,10 +27,25 @@ public class GhostController : MonoBehaviour
 
     private void Update()
     {
-        if (playerTarget != null && agent != null)
+        if (playerTarget != null)
         {
-            agent.SetDestination(playerTarget.position);  // Configura el destino del agente al jugador
+            MoveTowardsPlayer();
+            LookAtPlayer();
         }
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        Vector3 direction = (playerTarget.position - transform.position).normalized;
+        rb.MovePosition(transform.position + direction * moveSpeed * Time.deltaTime);
+    }
+
+    private void LookAtPlayer()
+    {
+        Vector3 lookDirection = playerTarget.position - transform.position;
+        lookDirection.y = 0;
+        Quaternion rotation = Quaternion.LookRotation(lookDirection);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 10);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -40,7 +55,7 @@ public class GhostController : MonoBehaviour
             PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
             if (playerController != null)
             {
-                playerController.TakeDamage(25); // El fantasma hace daño al jugador
+                playerController.TakeDamage(25);
             }
         }
     }
@@ -54,11 +69,17 @@ public class GhostController : MonoBehaviour
         }
     }
 
+    public void KnockBack(Vector3 direction)
+    {
+        float knockBackStrength = 5f;
+        rb.AddForce(direction * knockBackStrength, ForceMode.Impulse);
+    }
+
     void Die()
     {
         if (gameManager != null)
         {
-            gameManager.GhostDied();  // Notificar al GameManager que un fantasma ha muerto
+            gameManager.GhostDied();
         }
         Debug.Log("Ghost died.");
         Destroy(gameObject);
