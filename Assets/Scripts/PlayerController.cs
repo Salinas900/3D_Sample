@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;  // Necesitas esta directiva para trabajar con elementos de UI
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpHeight = 2f;
     public float health = 100f;
+    public float maxHealth = 100f;  // Añade una variable para el máximo de salud para facilitar cálculos
+    public Image healthBar;  // Referencia a la barra de vida que es un componente Image
 
     private bool isGrounded;
     private float groundCheckDistance = 0.1f;
@@ -17,6 +20,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         SetCursorState(true);
+        healthBar.fillAmount = health / maxHealth;  // Inicializa el valor de la barra de salud
     }
 
     private void Update()
@@ -70,7 +74,7 @@ public class PlayerController : MonoBehaviour
                 if (ghost != null)
                 {
                     ghost.TakeDamage(health * 0.25f);
-                    Vector3 knockBackDirection = (hit.collider.transform.position - transform.position).normalized;
+                    Vector3 knockBackDirection = (hit.collider.transform.position - transform.position). normalized;
                     ghost.KnockBack(knockBackDirection);
                 }
             }
@@ -80,6 +84,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+        healthBar.fillAmount = health / maxHealth;  // Actualiza la barra de salud
         if (health <= 0)
         {
             Die();

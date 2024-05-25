@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;  // Importa el espacio de nombres para trabajar con elementos UI
 
 public class GhostController : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GhostController : MonoBehaviour
     private float currentHealth;
     private float damageReductionFactor = 1f;
     public GameManager gameManager;
+    public Image healthBar;  // Referencia a la barra de salud en la UI
 
     private Rigidbody rb;
 
@@ -23,6 +25,7 @@ public class GhostController : MonoBehaviour
         {
             Debug.LogError("Player target not set in GhostController.");
         }
+        healthBar.fillAmount = currentHealth / health;  // Inicializa el valor de la barra de salud
     }
 
     private void Update()
@@ -63,6 +66,7 @@ public class GhostController : MonoBehaviour
     public void TakeDamage(float amount)
     {
         currentHealth -= amount * damageReductionFactor;
+        healthBar.fillAmount = currentHealth / health;  // Actualiza la barra de salud
         if (currentHealth <= 0)
         {
             Die();

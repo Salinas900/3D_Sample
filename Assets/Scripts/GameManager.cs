@@ -1,15 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;  // Asegúrate de incluir este namespace para trabajar con TextMeshPro
 
 public class GameManager : MonoBehaviour
 {
     public GameObject ghostPrefab;
     public Transform spawnPoint;
     public Transform playerTarget;
-    public int initialCount = 5; // Comenzar con 5 fantasmas
-    public float timeBetweenRounds = 5f; // 5 segundos entre rondas
-    private int maxGhosts = 30; // Máximo total de fantasmas para controlar la dificultad
+    public int initialCount = 5;
+    public float timeBetweenRounds = 5f;
+    public TMP_Text scoreText;  // Componente TextMeshPro para mostrar la puntuación
+    private int score = 0;  // Puntuación actual
 
+    private int maxGhosts = 30;
     private float roundTimer;
     private int currentRound = 0;
     private int currentGhostCount = 0;
@@ -17,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        scoreText.text = "Score: " + score;  // Inicializa el texto de puntuación
         StartRound();
     }
 
@@ -36,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         roundActive = true;
         currentRound++;
-        int ghostsToSpawn = initialCount + 2 * (currentRound - 1); // Añadir 2 fantasmas más cada ronda
+        int ghostsToSpawn = initialCount + 2 * (currentRound - 1);
         if (ghostsToSpawn > maxGhosts)
             ghostsToSpawn = maxGhosts;
 
@@ -67,10 +71,13 @@ public class GameManager : MonoBehaviour
     public void GhostDied()
     {
         currentGhostCount--;
+        score += 100;  // Añade 100 puntos por cada fantasma derrotado
+        scoreText.text = "Score: " + score;  // Actualiza el texto de puntuación
+
         if (currentGhostCount == 0)
         {
-            roundActive = false; // Finaliza la ronda actual, inicia cuenta regresiva para la próxima ronda
-            roundTimer = timeBetweenRounds; // Reinicia el temporizador para la siguiente ronda
+            roundActive = false;
+            roundTimer = timeBetweenRounds;
         }
     }
 
