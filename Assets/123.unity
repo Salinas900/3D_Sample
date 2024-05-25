@@ -179,6 +179,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -321,6 +329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.025 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011502475256, guid: d573deccd65294ace85bf199578ce039, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010423362872, guid: d573deccd65294ace85bf199578ce039, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -440,6 +452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -510,6 +530,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -531,6 +559,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -702,7 +738,7 @@ GameObject:
   - component: {fileID: 46306060}
   - component: {fileID: 46306062}
   - component: {fileID: 46306061}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,6 +830,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.001
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -859,6 +903,14 @@ PrefabInstance:
     - target: {fileID: 1000012617020494, guid: 0737421d54009431ab5ff19ff2721435, type: 3}
       propertyPath: m_Name
       value: LPN_Details.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012617020494, guid: 0737421d54009431ab5ff19ff2721435, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012617020494, guid: 0737421d54009431ab5ff19ff2721435, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011434892154, guid: 0737421d54009431ab5ff19ff2721435, type: 3}
       propertyPath: m_RootOrder
@@ -1036,6 +1088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.002
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
       value: 236
@@ -1148,6 +1208,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
       propertyPath: m_Name
       value: gravestoneBevel (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1281,6 +1349,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.001
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013631793570, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -1391,6 +1467,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBevel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1412,6 +1496,14 @@ PrefabInstance:
     - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
       propertyPath: m_Name
       value: LPN_Details.014 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010086786964, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
       propertyPath: m_RootOrder
@@ -1479,6 +1571,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.030
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
       value: 254
@@ -1544,6 +1644,14 @@ PrefabInstance:
     - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_Name
       value: LPN_Details.012 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
@@ -1660,6 +1768,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1689,6 +1805,14 @@ PrefabInstance:
     - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012048115592, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_RootOrder
@@ -1755,6 +1879,14 @@ PrefabInstance:
     - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_Name
       value: LPN_Details.007 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013408431854, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_RootOrder
@@ -1929,6 +2061,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.020
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -2000,6 +2140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.030 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -2070,6 +2218,14 @@ PrefabInstance:
     - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.026 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
@@ -2185,6 +2341,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2216,6 +2380,14 @@ PrefabInstance:
     - target: {fileID: 1000011122748342, guid: f5d69e7ec0dce4b2b8d0cb9b7025eb9b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011122748342, guid: f5d69e7ec0dce4b2b8d0cb9b7025eb9b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011122748342, guid: f5d69e7ec0dce4b2b8d0cb9b7025eb9b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011619980420, guid: f5d69e7ec0dce4b2b8d0cb9b7025eb9b, type: 3}
       propertyPath: m_RootOrder
@@ -2285,6 +2457,14 @@ PrefabInstance:
     - target: {fileID: 1000010834115316, guid: 730704ffabda34d8ba9a945aad85e3be, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010834115316, guid: 730704ffabda34d8ba9a945aad85e3be, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010834115316, guid: 730704ffabda34d8ba9a945aad85e3be, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013326358866, guid: 730704ffabda34d8ba9a945aad85e3be, type: 3}
       propertyPath: m_RootOrder
@@ -2399,6 +2579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2423,6 +2611,14 @@ PrefabInstance:
     - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
@@ -2550,6 +2746,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2571,6 +2775,14 @@ PrefabInstance:
     - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013631793570, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
       propertyPath: m_RootOrder
@@ -2665,6 +2877,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -2839,6 +3059,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDecorative (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2907,6 +3135,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
       propertyPath: m_Name
       value: gravestoneBroken
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3008,6 +3244,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3037,6 +3281,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -3208,6 +3460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Rocks.021
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011968115354, guid: b56967f5a595140c0ae5b8288c37a018, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011968115354, guid: b56967f5a595140c0ae5b8288c37a018, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013721877640, guid: b56967f5a595140c0ae5b8288c37a018, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -3276,6 +3536,14 @@ PrefabInstance:
     - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012048115592, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_RootOrder
@@ -3387,6 +3655,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3433,6 +3709,7 @@ Transform:
   - {fileID: 2134421124}
   - {fileID: 1604713506}
   - {fileID: 605158885}
+  - {fileID: 547990507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &306527372
@@ -3446,6 +3723,14 @@ PrefabInstance:
     - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_Name
       value: LPN_Mountain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011597210060, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_RootOrder
@@ -3566,6 +3851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3682,6 +3975,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.028 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013298395338, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -3747,6 +4048,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -3818,6 +4127,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -3956,6 +4273,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.020 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
       value: 198
@@ -4021,6 +4346,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -4157,6 +4490,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossColumn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 703f0a4f2037c794192419d31f60e314, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 703f0a4f2037c794192419d31f60e314, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4181,6 +4522,14 @@ PrefabInstance:
     - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.028 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013298395338, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
       propertyPath: m_RootOrder
@@ -4296,6 +4645,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
       propertyPath: m_Name
       value: gravestoneCrossLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4452,6 +4809,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4476,6 +4841,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -4542,6 +4915,14 @@ PrefabInstance:
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
@@ -4634,6 +5015,14 @@ PrefabInstance:
     - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011113284442, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
       propertyPath: m_RootOrder
@@ -4745,6 +5134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4769,6 +5166,14 @@ PrefabInstance:
     - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_Name
       value: LPN_Details.012 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
@@ -4835,6 +5240,14 @@ PrefabInstance:
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
@@ -4946,6 +5359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4991,6 +5412,14 @@ PrefabInstance:
     - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.002 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012048115592, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_RootOrder
@@ -5098,6 +5527,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: -6709288533808664266, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -4471101393237809663, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3812755232247290390, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -2199826804139026323, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5105,6 +5546,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
       propertyPath: m_Name
       value: character-ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
       propertyPath: m_TagString
@@ -5266,6 +5711,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDecorative (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5345,6 +5798,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5369,6 +5830,14 @@ PrefabInstance:
     - target: {fileID: 1000013880558708, guid: 2dfc697bf327e401687be9130ba13f2a, type: 3}
       propertyPath: m_Name
       value: LPN_Large_Rocks.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013880558708, guid: 2dfc697bf327e401687be9130ba13f2a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013880558708, guid: 2dfc697bf327e401687be9130ba13f2a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013014094432, guid: 2dfc697bf327e401687be9130ba13f2a, type: 3}
       propertyPath: m_RootOrder
@@ -5450,6 +5919,14 @@ PrefabInstance:
     - target: {fileID: 1000011971105270, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.011
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011971105270, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011971105270, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000012683185016, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
       propertyPath: m_RootOrder
@@ -5555,6 +6032,14 @@ PrefabInstance:
     - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_Name
       value: LPN_Details.012 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
@@ -5670,6 +6155,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5691,6 +6184,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -6098,6 +6599,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6183,6 +6692,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6207,6 +6724,14 @@ PrefabInstance:
     - target: {fileID: 1000013050956348, guid: a4a271f5f47c441d6b53627cbadf813a, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013050956348, guid: a4a271f5f47c441d6b53627cbadf813a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013050956348, guid: a4a271f5f47c441d6b53627cbadf813a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010277020480, guid: a4a271f5f47c441d6b53627cbadf813a, type: 3}
       propertyPath: m_RootOrder
@@ -6274,6 +6799,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.013 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
       value: 169
@@ -6339,6 +6872,14 @@ PrefabInstance:
     - target: {fileID: 1000012043944216, guid: f3eba945ea540419eb267052f0613ee1, type: 3}
       propertyPath: m_Name
       value: LPN_Details.010
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012043944216, guid: f3eba945ea540419eb267052f0613ee1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012043944216, guid: f3eba945ea540419eb267052f0613ee1, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013975903228, guid: f3eba945ea540419eb267052f0613ee1, type: 3}
       propertyPath: m_RootOrder
@@ -6435,6 +6976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.026 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -6500,6 +7049,14 @@ PrefabInstance:
     - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
       propertyPath: m_Name
       value: LPN_Details.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011384345806, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
       propertyPath: m_RootOrder
@@ -6611,6 +7168,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDecorative (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6636,7 +7201,7 @@ GameObject:
   - component: {fileID: 506185174}
   - component: {fileID: 506185173}
   - component: {fileID: 506185172}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6738,6 +7303,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.001
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -6828,6 +7401,14 @@ PrefabInstance:
     - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
@@ -7046,6 +7627,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7119,6 +7708,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
       propertyPath: m_Name
       value: gravestoneCross (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7194,6 +7791,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBevel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7263,6 +7868,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7309,6 +7922,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -7364,6 +7985,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
   m_PrefabInstance: {fileID: 547113384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &547990506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547990507}
+  - component: {fileID: 547990511}
+  - component: {fileID: 547990510}
+  - component: {fileID: 547990509}
+  - component: {fileID: 547990508}
+  m_Layer: 11
+  m_Name: Limit
+  m_TagString: Limit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547990507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547990506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.31, y: -9.045, z: 0}
+  m_LocalScale: {x: 50.83052, y: 1, z: 37.503}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 301711193}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &547990508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547990506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &547990509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547990506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &547990510
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547990506}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &547990511
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547990506}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &549370593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7375,6 +8123,14 @@ PrefabInstance:
     - target: {fileID: 1000010323523608, guid: cc320c720e3404b64a3373ad0fe2ccc9, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010323523608, guid: cc320c720e3404b64a3373ad0fe2ccc9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010323523608, guid: cc320c720e3404b64a3373ad0fe2ccc9, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000014290097942, guid: cc320c720e3404b64a3373ad0fe2ccc9, type: 3}
       propertyPath: m_RootOrder
@@ -7491,6 +8247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7584,6 +8348,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7608,6 +8380,14 @@ PrefabInstance:
     - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_Name
       value: LPN_Details.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
@@ -7719,6 +8499,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7787,6 +8575,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 703f0a4f2037c794192419d31f60e314, type: 3}
       propertyPath: m_Name
       value: crossColumn
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 703f0a4f2037c794192419d31f60e314, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 703f0a4f2037c794192419d31f60e314, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7878,6 +8674,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCrossLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7904,9 +8708,9 @@ GameObject:
   - component: {fileID: 605158888}
   - component: {fileID: 605158887}
   - component: {fileID: 605158886}
-  m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: Limit
+  m_TagString: Limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8056,6 +8860,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.019 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010392565668, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
       propertyPath: m_RootOrder
       value: 199
@@ -8127,6 +8939,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.017 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012976492784, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -8193,6 +9013,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.001 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
       value: 192
@@ -8258,6 +9086,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -8373,6 +9209,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
       propertyPath: m_Name
       value: bench
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8495,6 +9339,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8519,6 +9371,14 @@ PrefabInstance:
     - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012825835384, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
       propertyPath: m_RootOrder
@@ -8633,6 +9493,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8707,6 +9575,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -8804,6 +9680,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -8922,6 +9806,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.005
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011264643604, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -9013,6 +9905,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.013 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
       value: 181
@@ -9078,6 +9978,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -9149,6 +10057,14 @@ PrefabInstance:
     - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_Name
       value: LPN_Details.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
@@ -9260,6 +10176,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9305,6 +10229,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -9490,9 +10422,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2318247182028011422, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
       propertyPath: m_Name
       value: benchDamaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9563,6 +10507,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9608,6 +10560,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -9806,6 +10766,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9832,6 +10800,14 @@ PrefabInstance:
     - target: {fileID: 1000011421643954, guid: 588e83f7adf994a5b8aef58e58017373, type: 3}
       propertyPath: m_Name
       value: LPN_Campfire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011421643954, guid: 588e83f7adf994a5b8aef58e58017373, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011421643954, guid: 588e83f7adf994a5b8aef58e58017373, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010791359576, guid: 588e83f7adf994a5b8aef58e58017373, type: 3}
       propertyPath: m_RootOrder
@@ -9898,6 +10874,14 @@ PrefabInstance:
     - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_Name
       value: LPN_Details.020 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
@@ -9968,6 +10952,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.029 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
       value: 200
@@ -10033,6 +11025,14 @@ PrefabInstance:
     - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.026 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
@@ -10149,6 +11149,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10239,6 +11247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10284,6 +11300,14 @@ PrefabInstance:
     - target: {fileID: 1000010892016908, guid: 739cdb426a8f34c18b4c8cc66be0e8a0, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010892016908, guid: 739cdb426a8f34c18b4c8cc66be0e8a0, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010892016908, guid: 739cdb426a8f34c18b4c8cc66be0e8a0, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000012428132454, guid: 739cdb426a8f34c18b4c8cc66be0e8a0, type: 3}
       propertyPath: m_RootOrder
@@ -10377,9 +11401,9 @@ GameObject:
   - component: {fileID: 871751495}
   - component: {fileID: 871751494}
   - component: {fileID: 871751493}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: Limit
+  m_TagString: Limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10582,6 +11606,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10603,6 +11635,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -10696,6 +11736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.023 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011384345806, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10761,6 +11805,14 @@ PrefabInstance:
     - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
       propertyPath: m_Name
       value: LPN_Details.014 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010086786964, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
       propertyPath: m_RootOrder
@@ -10898,6 +11950,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11017,6 +12077,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.009
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011113284442, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
       propertyPath: m_RootOrder
       value: 235
@@ -11114,6 +12182,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.002 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
       value: 216
@@ -11206,6 +12282,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Rocks.011 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011971105270, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011971105270, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012683185016, guid: 7b1aa803e261c42ad8d0c4972a9a5d15, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -11279,6 +12363,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.005 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011264643604, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -11347,6 +12439,14 @@ PrefabInstance:
     - target: {fileID: 1000011193943548, guid: 0ec2020c046d34bf1b0018a75c788c07, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.010
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011193943548, guid: 0ec2020c046d34bf1b0018a75c788c07, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011193943548, guid: 0ec2020c046d34bf1b0018a75c788c07, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011913977000, guid: 0ec2020c046d34bf1b0018a75c788c07, type: 3}
       propertyPath: m_RootOrder
@@ -11487,6 +12587,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11581,6 +12689,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironFence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11650,6 +12766,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11674,6 +12798,14 @@ PrefabInstance:
     - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.002 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012048115592, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_RootOrder
@@ -11919,8 +13051,8 @@ MonoBehaviour:
   walkSpeed: 5
   runSpeed: 10
   jumpHeight: 5
-  health: 100
-  maxHealth: 100
+  health: 500
+  maxHealth: 500
   healthBar: {fileID: 1500029876}
   groundLayer:
     serializedVersion: 2
@@ -11962,6 +13094,10 @@ PrefabInstance:
     - target: {fileID: 1000011768002476, guid: 8d865047618354ea2b1d86a01a1b1cfe, type: 3}
       propertyPath: m_Name
       value: LPN_Details.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011768002476, guid: 8d865047618354ea2b1d86a01a1b1cfe, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000012481014040, guid: 8d865047618354ea2b1d86a01a1b1cfe, type: 3}
       propertyPath: m_RootOrder
@@ -12028,6 +13164,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -12097,6 +13241,14 @@ PrefabInstance:
     - target: {fileID: 1000013538946992, guid: 1d4087ac2e584490fae30938d90816f2, type: 3}
       propertyPath: m_Name
       value: LPN_Details.022
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013538946992, guid: 1d4087ac2e584490fae30938d90816f2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013538946992, guid: 1d4087ac2e584490fae30938d90816f2, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011066475286, guid: 1d4087ac2e584490fae30938d90816f2, type: 3}
       propertyPath: m_RootOrder
@@ -12233,6 +13385,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12302,6 +13462,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12326,6 +13494,14 @@ PrefabInstance:
     - target: {fileID: 1000010791966962, guid: 8bc482edde80e4d33b508ce27937cdbe, type: 3}
       propertyPath: m_Name
       value: LPN_Large_Rocks.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010791966962, guid: 8bc482edde80e4d33b508ce27937cdbe, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010791966962, guid: 8bc482edde80e4d33b508ce27937cdbe, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011939982042, guid: 8bc482edde80e4d33b508ce27937cdbe, type: 3}
       propertyPath: m_RootOrder
@@ -12525,6 +13701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.012
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -12647,6 +13831,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12715,6 +13907,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
       propertyPath: m_Name
       value: bench
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a8aef21f9d59cba4d98540486115d43f, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12790,6 +13990,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cryptSmallDoorwayAlternative
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9707f5fc727b94449de92342613baf8, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9707f5fc727b94449de92342613baf8, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12859,6 +14067,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
       propertyPath: m_Name
       value: candleMultiple (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12989,6 +14205,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: detailBowl
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2b3a0ac7406f2c4598c4832533b8d15, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2b3a0ac7406f2c4598c4832533b8d15, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13076,6 +14300,14 @@ PrefabInstance:
       value: lightpostSingle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
@@ -13161,6 +14393,14 @@ PrefabInstance:
       value: candle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -13185,6 +14425,14 @@ PrefabInstance:
     - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932741508, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013679189794, guid: 75c92d7332662430394a160d1e6a65ec, type: 3}
       propertyPath: m_RootOrder
@@ -13372,6 +14620,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.002
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -13440,6 +14696,14 @@ PrefabInstance:
     - target: {fileID: 1000010913741300, guid: c7259a5395de74774bc7dacc818040f9, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010913741300, guid: c7259a5395de74774bc7dacc818040f9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010913741300, guid: c7259a5395de74774bc7dacc818040f9, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011920608114, guid: c7259a5395de74774bc7dacc818040f9, type: 3}
       propertyPath: m_RootOrder
@@ -13532,6 +14796,14 @@ PrefabInstance:
     - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_Name
       value: LPN_Details.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940869850, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_RootOrder
@@ -13684,6 +14956,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13710,6 +14990,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -13777,6 +15065,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.013 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -13843,6 +15139,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.017
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012976492784, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -13908,6 +15212,14 @@ PrefabInstance:
     - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_Name
       value: LPN_Details.026 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
@@ -14033,6 +15345,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.019
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010392565668, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -14143,6 +15463,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneRound (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ef91e68935467e46b30ac21055c9197, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ef91e68935467e46b30ac21055c9197, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14237,6 +15565,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14258,6 +15594,14 @@ PrefabInstance:
     - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_Name
       value: LPN_Details.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940869850, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_RootOrder
@@ -14350,6 +15694,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Rocks.016
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013445773978, guid: 2d4143f443337402496aeecf3a8369a6, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013445773978, guid: 2d4143f443337402496aeecf3a8369a6, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012411815278, guid: 2d4143f443337402496aeecf3a8369a6, type: 3}
       propertyPath: m_RootOrder
       value: 190
@@ -14415,6 +15767,14 @@ PrefabInstance:
     - target: {fileID: 1000010385664364, guid: ddcd83dc3d319493a95f42f1a6f73bca, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010385664364, guid: ddcd83dc3d319493a95f42f1a6f73bca, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010385664364, guid: ddcd83dc3d319493a95f42f1a6f73bca, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 1000010385664364, guid: ddcd83dc3d319493a95f42f1a6f73bca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14511,6 +15871,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.014
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014182435374, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010086786964, guid: 45f1defbe349e46ac93a6a3069e65e2a, type: 3}
       propertyPath: m_RootOrder
       value: 183
@@ -14576,6 +15944,14 @@ PrefabInstance:
     - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_Name
       value: LPN_Details.006 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
@@ -14668,6 +16044,14 @@ PrefabInstance:
     - target: {fileID: 1000010427777878, guid: f6e85fd4a4a8e4650a9703c16601ee47, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010427777878, guid: f6e85fd4a4a8e4650a9703c16601ee47, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010427777878, guid: f6e85fd4a4a8e4650a9703c16601ee47, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013936208444, guid: f6e85fd4a4a8e4650a9703c16601ee47, type: 3}
       propertyPath: m_RootOrder
@@ -14813,6 +16197,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.030 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -14878,6 +16270,14 @@ PrefabInstance:
     - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012185947128, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011113284442, guid: 5b8a8a7ff136a407a954fe563ab7c65e, type: 3}
       propertyPath: m_RootOrder
@@ -15043,6 +16443,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15093,6 +16501,14 @@ PrefabInstance:
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
@@ -15162,6 +16578,14 @@ PrefabInstance:
     - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_Name
       value: LPN_Details.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
@@ -15272,6 +16696,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
       propertyPath: m_Name
       value: crossWood (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15404,6 +16836,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.026 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013455125044, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010332832756, guid: 243412fc5086d49ac969ec51fbbab6e3, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -15514,6 +16954,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15620,6 +17068,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15669,6 +17125,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -15735,6 +17199,14 @@ PrefabInstance:
     - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_Name
       value: LPN_Details.020 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
@@ -15862,6 +17334,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15907,6 +17387,14 @@ PrefabInstance:
     - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.006 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000010705603386, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
       propertyPath: m_RootOrder
@@ -16052,6 +17540,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDecorative
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16124,6 +17620,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.019 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010392565668, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -16189,6 +17693,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -16256,6 +17768,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Trees.002 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -16321,6 +17841,14 @@ PrefabInstance:
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.002 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010816470154, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_RootOrder
@@ -16501,7 +18029,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -786.9841, y: 0, z: -354.18353, w: -194.83612}
+  m_margin: {x: -1700.9379, y: 0, z: -354.18353, w: -194.83612}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16554,6 +18082,14 @@ PrefabInstance:
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 1000014171067106, guid: b641549cacfe64711ae003181f0d601b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16735,6 +18271,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.006 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
       value: 208
@@ -16800,6 +18344,14 @@ PrefabInstance:
     - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012298680834, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012048115592, guid: 00b7e221af5c94d6da482fb49275fad7, type: 3}
       propertyPath: m_RootOrder
@@ -16946,7 +18498,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!4 &1384124258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f282d66219be7634b957fa8c40ec58d6, type: 3}
@@ -16963,6 +18515,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -17095,6 +18655,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.028 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013298395338, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -17210,6 +18778,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17300,6 +18876,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17324,6 +18908,14 @@ PrefabInstance:
     - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.006 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000010705603386, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
       propertyPath: m_RootOrder
@@ -17442,6 +19034,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCrossLarge (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17510,6 +19110,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
       propertyPath: m_Name
       value: gravestoneCrossLarge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52940793030dc4547b080c827473d1f3, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17593,9 +19201,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8488712315958853436, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8325689553952117475, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8274597032198867004, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -7562846898429900858, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4201797056290999630, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -1397376947954717707, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 635547659545568360, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c132a75e41991b846b13dc508b46c262, type: 3}
       propertyPath: m_Name
       value: vehicle1-red
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343925893741176958, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841320917888766234, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254527795633167285, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6420940193536827668, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821294456061963822, guid: c132a75e41991b846b13dc508b46c262, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17716,6 +19380,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17787,6 +19459,14 @@ PrefabInstance:
     - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_Name
       value: LPN_Details.006 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
@@ -18034,6 +19714,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.012 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010133056292, guid: 127db51d4c34446db8838220f99d6408, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011730660228, guid: 127db51d4c34446db8838220f99d6408, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -18144,6 +19832,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDebris (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18221,6 +19917,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironFence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d09db41f08a39a643afcce3629aeeb5a, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18269,6 +19973,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -18411,6 +20123,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.006 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010901946530, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012996256568, guid: b4ccdcace053e499b8f93492c22dbc29, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -18521,6 +20241,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18595,6 +20323,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.020
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
       value: 237
@@ -18663,6 +20399,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -18774,6 +20518,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18798,6 +20550,14 @@ PrefabInstance:
     - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_Name
       value: LPN_Details.007 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013408431854, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_RootOrder
@@ -18888,6 +20648,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -19015,6 +20783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19084,6 +20860,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
       propertyPath: m_Name
       value: candleMultiple
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec728284b9969d244a59ae952aa1c75b, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19155,6 +20939,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19176,6 +20968,14 @@ PrefabInstance:
     - target: {fileID: 1000011055915218, guid: 8b7bdf2fa29574b85a7b7120558ba80d, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011055915218, guid: 8b7bdf2fa29574b85a7b7120558ba80d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011055915218, guid: 8b7bdf2fa29574b85a7b7120558ba80d, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011835450984, guid: 8b7bdf2fa29574b85a7b7120558ba80d, type: 3}
       propertyPath: m_RootOrder
@@ -19245,6 +21045,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -19360,6 +21168,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19437,9 +21253,9 @@ GameObject:
   - component: {fileID: 1604713509}
   - component: {fileID: 1604713508}
   - component: {fileID: 1604713507}
-  m_Layer: 0
-  m_Name: Cube (2)
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: Limit
+  m_TagString: Limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19659,6 +21475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19683,6 +21507,14 @@ PrefabInstance:
     - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_Name
       value: LPN_Details.020 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
@@ -19774,6 +21606,14 @@ PrefabInstance:
     - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_Name
       value: LPN_Details.027 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013353368208, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010940869850, guid: 8c219e954c2ec41fbaa3ce2dba6d6ea5, type: 3}
       propertyPath: m_RootOrder
@@ -19961,6 +21801,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.013 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -20087,6 +21935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cryptSmallDoorway (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63e4d483da4db1142a8d4698be39e48f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63e4d483da4db1142a8d4698be39e48f, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20111,6 +21967,14 @@ PrefabInstance:
     - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_Name
       value: LPN_Details.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013099446430, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012432112196, guid: 48412bd1cbe5a4f7f83a9ddd04b2e323, type: 3}
       propertyPath: m_RootOrder
@@ -20250,6 +22114,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBroken
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d936c29c713594c4fa7ad437d7fe0931, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20340,6 +22212,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20385,6 +22265,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -20451,6 +22339,14 @@ PrefabInstance:
     - target: {fileID: 1000013905581244, guid: 29490a7be9bd644d1928720041b6b9ba, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013905581244, guid: 29490a7be9bd644d1928720041b6b9ba, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013905581244, guid: 29490a7be9bd644d1928720041b6b9ba, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010554030716, guid: 29490a7be9bd644d1928720041b6b9ba, type: 3}
       propertyPath: m_RootOrder
@@ -20682,6 +22578,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cryptDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ded3250225c0304ebd6af3b6366963e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ded3250225c0304ebd6af3b6366963e, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20788,6 +22692,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
       propertyPath: m_Name
       value: gravestoneDebris (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4e36f02e5047b44882e3c2624c7c33e, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20905,6 +22817,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21015,6 +22935,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
       propertyPath: m_Name
       value: lightpostSingle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21321,6 +23249,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.021
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013494259722, guid: 8a157b31b0ddd42a1952b9edc820bf03, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013494259722, guid: 8a157b31b0ddd42a1952b9edc820bf03, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013477045454, guid: 8a157b31b0ddd42a1952b9edc820bf03, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -21411,6 +23347,14 @@ PrefabInstance:
     - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_Name
       value: LPN_Mountain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21579,6 +23523,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: lightpostSingle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d87ac26c96908940860ddf85b82ecf9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21650,6 +23602,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21695,6 +23655,10 @@ PrefabInstance:
     - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
       propertyPath: m_Name
       value: LPN_Details.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013361078206, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
+      propertyPath: m_TagString
+      value: Limit
       objectReference: {fileID: 0}
     - target: {fileID: 4000011384345806, guid: aaa86caaa371b4718be9b762b69c9857, type: 3}
       propertyPath: m_RootOrder
@@ -21761,6 +23725,14 @@ PrefabInstance:
     - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_Name
       value: LPN_Details.020
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
@@ -21960,6 +23932,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Rocks.006
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010914682692, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010705603386, guid: bd694b955a6b94460a2fcb9b5ef9d6e5, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -22054,6 +24034,14 @@ PrefabInstance:
     - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
       propertyPath: m_Name
       value: LPN_Details.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013499560362, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013631793570, guid: 03fbe6db4827a41959091cf3f407fbc7, type: 3}
       propertyPath: m_RootOrder
@@ -22250,6 +24238,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneWide (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e3aa111424673e4eb8638fbc86b124b, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22322,6 +24318,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.019
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010392565668, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -22387,6 +24391,14 @@ PrefabInstance:
     - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_Name
       value: LPN_Details.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013343336086, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013408431854, guid: acaf7b4f9307f4d38958c7c6d56c3fe8, type: 3}
       propertyPath: m_RootOrder
@@ -22477,6 +24489,14 @@ PrefabInstance:
     - target: {fileID: 1000013560862338, guid: d11e5432b77db44b08a862109200acac, type: 3}
       propertyPath: m_Name
       value: LPN_Large_Rocks.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013560862338, guid: d11e5432b77db44b08a862109200acac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013560862338, guid: d11e5432b77db44b08a862109200acac, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012283337776, guid: d11e5432b77db44b08a862109200acac, type: 3}
       propertyPath: m_RootOrder
@@ -22581,6 +24601,14 @@ PrefabInstance:
     - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
       propertyPath: m_Name
       value: LPN_Details.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011788660926, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012976492784, guid: af481adc0b8d84d06835fe939d22b748, type: 3}
       propertyPath: m_RootOrder
@@ -22831,6 +24859,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.028
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010979934222, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013298395338, guid: b2ff36358dd6e4160906bcfb57d7e8c3, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -22941,6 +24977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneCross
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 764a5b6155c5e554c8dc1f59b5b4e277, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23038,6 +25078,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneBevel
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19072a8502b2b8749a7ba623ab3853a9, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23083,6 +25131,14 @@ PrefabInstance:
     - target: {fileID: 1000011502475256, guid: d573deccd65294ace85bf199578ce039, type: 3}
       propertyPath: m_Name
       value: LPN_Details.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011502475256, guid: d573deccd65294ace85bf199578ce039, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011502475256, guid: d573deccd65294ace85bf199578ce039, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010423362872, guid: d573deccd65294ace85bf199578ce039, type: 3}
       propertyPath: m_RootOrder
@@ -23327,6 +25383,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cross (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 337716c9784a3ee4d8968f2f862d3acf, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23474,6 +25538,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crossWood
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 085a8de566054dc4d95290e68aaf3fde, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23519,6 +25591,14 @@ PrefabInstance:
     - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.010 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013825141480, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
       propertyPath: m_RootOrder
@@ -23612,6 +25692,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -23783,6 +25871,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.019 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012500147352, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010392565668, guid: e634bbe79cc154d67946df3f691a01a4, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -23874,6 +25970,14 @@ PrefabInstance:
     - target: {fileID: 1000010846107328, guid: 208492b29ff4e4e2890152b4682f3140, type: 3}
       propertyPath: m_Name
       value: LPN_Details.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010846107328, guid: 208492b29ff4e4e2890152b4682f3140, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010846107328, guid: 208492b29ff4e4e2890152b4682f3140, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010978110460, guid: 208492b29ff4e4e2890152b4682f3140, type: 3}
       propertyPath: m_RootOrder
@@ -23998,6 +26102,14 @@ PrefabInstance:
     - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_Name
       value: LPN_Details.030 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
@@ -24140,6 +26252,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8932bd1cbccd40749bebed08b0af1322, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24161,6 +26281,14 @@ PrefabInstance:
     - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_Name
       value: LPN_Details.013 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014222982764, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011498355794, guid: 4d010cde6e54a4d349ccad490df41412, type: 3}
       propertyPath: m_RootOrder
@@ -24322,6 +26450,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LPN_Details.030 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012121481292, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011112072784, guid: c72124a1bc91f43758b7f5f4d927da73, type: 3}
       propertyPath: m_RootOrder
       value: 146
@@ -24413,7 +26549,7 @@ GameObject:
   - component: {fileID: 2036564217}
   - component: {fileID: 2036564219}
   - component: {fileID: 2036564218}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Health_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24529,9 +26665,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2318247182028011422, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
       propertyPath: m_Name
       value: benchDamaged (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e43d12a42309a2f4391102558730dc9f, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24578,6 +26726,14 @@ PrefabInstance:
     - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_Name
       value: LPN_Details.020 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013265513606, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011089293326, guid: e609da664e15d4f579495ebc3dc51477, type: 3}
       propertyPath: m_RootOrder
@@ -24719,6 +26875,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ironFenceDamaged
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8745721c5d630c48b26d9419e175133, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8745721c5d630c48b26d9419e175133, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24835,6 +26999,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravestoneDecorative
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24880,6 +27052,14 @@ PrefabInstance:
     - target: {fileID: 1000011279516078, guid: 56e3676af54bc401eb910cc1d0cb6669, type: 3}
       propertyPath: m_Name
       value: LPN_Rocks.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011279516078, guid: 56e3676af54bc401eb910cc1d0cb6669, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011279516078, guid: 56e3676af54bc401eb910cc1d0cb6669, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013171027328, guid: 56e3676af54bc401eb910cc1d0cb6669, type: 3}
       propertyPath: m_RootOrder
@@ -25000,6 +27180,14 @@ PrefabInstance:
     - target: {fileID: 1000010095217666, guid: 4a5050a8f93424bb59640f2809861d3f, type: 3}
       propertyPath: m_Name
       value: LPN_Mountain_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010095217666, guid: 4a5050a8f93424bb59640f2809861d3f, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010095217666, guid: 4a5050a8f93424bb59640f2809861d3f, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000010802722484, guid: 4a5050a8f93424bb59640f2809861d3f, type: 3}
       propertyPath: m_RootOrder
@@ -25187,6 +27375,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cryptSmallDoorway
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63e4d483da4db1142a8d4698be39e48f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63e4d483da4db1142a8d4698be39e48f, type: 3}
+      propertyPath: m_TagString
+      value: Limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25208,6 +27404,14 @@ PrefabInstance:
     - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.010
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011495439164, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000013825141480, guid: 5fc316e1708fd40f3a96713e477bbd9a, type: 3}
       propertyPath: m_RootOrder
@@ -25361,6 +27565,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: crypt
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d591ed2da988e4e419e28981e565cb34, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d591ed2da988e4e419e28981e565cb34, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25454,6 +27666,14 @@ PrefabInstance:
     - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_Name
       value: LPN_Mountain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010223203296, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011597210060, guid: 28533705543b1461c8d0cdf119c1bd13, type: 3}
       propertyPath: m_RootOrder
@@ -25602,6 +27822,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: debris
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8610f1737a9311d4aba0d445251d2808, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8610f1737a9311d4aba0d445251d2808, type: 3}
+      propertyPath: m_TagString
+      value: Props
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25647,6 +27875,14 @@ PrefabInstance:
     - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012461950352, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000011264643604, guid: 615df8dcef1464938bc8f3217f838507, type: 3}
       propertyPath: m_RootOrder
@@ -25713,6 +27949,14 @@ PrefabInstance:
     - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
       propertyPath: m_Name
       value: LPN_Trees.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011496051054, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     - target: {fileID: 4000012825835384, guid: 5cab19fdb480c4e94b567019c5375991, type: 3}
       propertyPath: m_RootOrder
@@ -25807,9 +28051,9 @@ GameObject:
   - component: {fileID: 2134421127}
   - component: {fileID: 2134421126}
   - component: {fileID: 2134421125}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: Limit
+  m_TagString: Limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25976,6 +28220,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
       propertyPath: m_Name
       value: gravestoneDecorative (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 109355a8585e3264cab3cc810c499fac, type: 3}
+      propertyPath: m_TagString
+      value: Props
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

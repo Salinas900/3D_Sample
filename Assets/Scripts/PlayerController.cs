@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpHeight = 2f;
     public float health = 100f;
-    public float maxHealth = 100f;  // Añade una variable para el máximo de salud para facilitar cálculos
+    public float maxHealth = 100f;  // Variable para el máximo de salud para facilitar cálculos
     public Image healthBar;  // Referencia a la barra de vida que es un componente Image
 
     private bool isGrounded;
@@ -73,8 +73,8 @@ public class PlayerController : MonoBehaviour
                 GhostController ghost = hit.collider.gameObject.GetComponent<GhostController>();
                 if (ghost != null)
                 {
-                    ghost.TakeDamage(health * 0.25f);
-                    Vector3 knockBackDirection = (hit.collider.transform.position - transform.position). normalized;
+                    ghost.TakeDamage(25);  // Daño fijo de 25 puntos
+                    Vector3 knockBackDirection = (hit.collider.transform.position - transform.position).normalized;
                     ghost.KnockBack(knockBackDirection);
                 }
             }
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player has died!");
-        SetCursorState(false);  // Unlock and show the cursor before changing scene
+        SetCursorState(false);  // Desbloquear y mostrar el cursor antes de cambiar de escena
         SceneController.Instance.LoadScene("GameOver");
     }
 
