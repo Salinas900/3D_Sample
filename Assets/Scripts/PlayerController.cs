@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;  // Necesitas esta directiva para trabajar con elementos de UI
+using UnityEngine.UI;  // Libreria para el UI
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float jumpHeight = 2f;
     public float health = 100f;
-    public float maxHealth = 100f;  // Variable para el máximo de salud para facilitar cálculos
-    public Image healthBar;  // Referencia a la barra de vida que es un componente Image
+    public float maxHealth = 100f;  // Vida maxima del jugador
+    public Image healthBar;  // Pa' la barra de vida
 
     private bool isGrounded;
     private float groundCheckDistance = 0.1f;
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         SetCursorState(true);
-        healthBar.fillAmount = health / maxHealth;  // Inicializa el valor de la barra de salud
+        healthBar.fillAmount = health / maxHealth;  // Inicia el juego con la vida al maximo
     }
 
     private void Update()
@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
                 GhostController ghost = hit.collider.gameObject.GetComponent<GhostController>();
                 if (ghost != null)
                 {
-                    ghost.TakeDamage(25);  // Daño fijo de 25 puntos
+                    ghost.TakeDamage(25);  // Daño fijo de 25 puntos al fantasma
                     Vector3 knockBackDirection = (hit.collider.transform.position - transform.position).normalized;
                     ghost.KnockBack(knockBackDirection);
                 }
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
-        healthBar.fillAmount = health / maxHealth;  // Actualiza la barra de salud
+        healthBar.fillAmount = health / maxHealth;  // Actualiza la barra de vida
         if (health <= 0)
         {
             Die();
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player has died!");
-        SetCursorState(false);  // Desbloquear y mostrar el cursor antes de cambiar de escena
+        SetCursorState(false);  // Desbloquear y muestra el mouse antes de cambiar de escena
         SceneController.Instance.LoadScene("GameOver");
     }
 
@@ -112,3 +112,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
+
+// Luis Salinas
